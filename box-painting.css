@@ -1,0 +1,79 @@
+.pokeball {
+  background: white;
+  width: 8px;
+  height: 8px;
+  animation: ic 2s infinite;
+}
+
+@keyframes ic {
+  0% {
+    box-shadow: 0px 8px white, 8px 0px white, 8px 8px white, -8px 0px black, -8px 8px black,
+    -8px 16px white, 0px 16px black, 8px 16px black, 16px 16px white, 16px 8px black,
+    16px 0px black, 16px -8px red, 8px -8px black, 0px -8px black, -8px -8px red,
+    0px 24px white, 0px 32px white, 0px 40px black,8px 24px white, 8px 32px white, 8px 40px black,
+    16px 16px white, 16px 24px white, 16px 32px white, 16px 40px black,
+    24px 16px white, 24px 24px white, 24px 32px black, 32px 16px white, 32px 24px white,
+    32px 32px black, 40px 16px black, 40px 24px black, -8px 24px white, -8px 32px white, -8px 40px black,
+    -16px 16px white, -16px 24px white, -16px 32px black, -24px 16px white, -24px 24px white, -24px 32px black,
+    -32px 16px black, -32px 24px black, -16px 8px black, -24px 8px black, -32px 8px white, -40px 8px black,
+    24px 8px black, 32px 8px black, 40px 8px white, 48px 8px black, -16px 0px red, -24px 0px red, -32px 0px black, -40px 0px black,
+    24px 0px red, 32px 0px red, 40px 0px black, 48px 0px black, -16px -8px red, -24px -8px red, -32px -8px red, -40px -8px black,
+    24px -8px red, 32px -8px red, 40px -8px red, 48px -8px black, 0px -16px red, -8px -16px white, -16px -16px red, -24px -16px red,
+    -32px -16px red, -40px -16px black, 8px -16px red, 16px -16px red, 24px -16px red, 32px -16px red, 40px -16px red, 48px -16px black,
+    0px -24px white, -8px -24px white, -16px -24px white, -24px -24px red, -32px -24px black, 8px -24px red,16px -24px red, 24px -24px red,
+    32px -24px red, 40px -24px black, 0px -32px red, -8px -32px white, -16px -32px red, -24px -32px red, -32px -32px black, 8px -32px red, 16px -32px red, 24px -32px red,
+    32px -32px red, 40px -32px black, 0px -40px red, -8px -40px red, -16px -40px black, -24px -40px black, 8px -40px red, 16px -40px red, 24px -40px black, 32px -40px black,
+    0px -48px black, -8px -48px black, 8px -48px black, 16px -48px black;
+  }
+  50% {
+    background: yellow;
+    box-shadow: 0px 8px yellow, 8px 0px yellow, 8px 8px yellow, -8px 0px black, -8px 8px black,
+    -8px 16px white, 0px 16px black, 8px 16px black, 16px 16px white, 16px 8px black,
+    16px 0px black, 16px -8px red, 8px -8px black, 0px -8px black, -8px -8px red,
+    0px 24px white, 0px 32px white, 0px 40px black,8px 24px white, 8px 32px white, 8px 40px black,
+    16px 16px white, 16px 24px white, 16px 32px white, 16px 40px black,
+    24px 16px white, 24px 24px white, 24px 32px black, 32px 16px white, 32px 24px white,
+    32px 32px black, 40px 16px black, 40px 24px black, -8px 24px white, -8px 32px white, -8px 40px black,
+    -16px 16px white, -16px 24px white, -16px 32px black, -24px 16px white, -24px 24px white, -24px 32px black,
+    -32px 16px black, -32px 24px black, -16px 8px black, -24px 8px black, -32px 8px white, -40px 8px black,
+    24px 8px black, 32px 8px black, 40px 8px white, 48px 8px black, -16px 0px red, -24px 0px red, -32px 0px black, -40px 0px black,
+    24px 0px red, 32px 0px red, 40px 0px black, 48px 0px black, -16px -8px red, -24px -8px red, -32px -8px red, -40px -8px black,
+    24px -8px red, 32px -8px red, 40px -8px red, 48px -8px black, 0px -16px red, -8px -16px white, -16px -16px red, -24px -16px red,
+    -32px -16px red, -40px -16px black, 8px -16px red, 16px -16px red, 24px -16px red, 32px -16px red, 40px -16px red, 48px -16px black,
+    0px -24px white, -8px -24px white, -16px -24px white, -24px -24px red, -32px -24px black, 8px -24px red,16px -24px red, 24px -24px red,
+    32px -24px red, 40px -24px black, 0px -32px red, -8px -32px white, -16px -32px red, -24px -32px red, -32px -32px black, 8px -32px red, 16px -32px red, 24px -32px red,
+    32px -32px red, 40px -32px black, 0px -40px red, -8px -40px red, -16px -40px black, -24px -40px black, 8px -40px red, 16px -40px red, 24px -40px black, 32px -40px black,
+    0px -48px black, -8px -48px black, 8px -48px black, 16px -48px black;
+  }
+  100% {
+    box-shadow: 0px 8px white, 8px 0px white, 8px 8px white, -8px 0px black, -8px 8px black,
+    -8px 16px white, 0px 16px black, 8px 16px black, 16px 16px white, 16px 8px black,
+    16px 0px black, 16px -8px black, 8px -8px black, 0px -8px black, -8px -8px black,
+    0px 24px white, 0px 32px white, 0px 40px black,8px 24px white, 8px 32px white, 8px 40px black,
+    16px 16px white, 16px 24px white, 16px 32px white, 16px 40px black,
+    24px 16px white, 24px 24px white, 24px 32px black, 32px 16px white, 32px 24px white,
+    32px 32px black, 40px 16px black, 40px 24px black, -8px 24px white, -8px 32px white, -8px 40px black,
+    -16px 16px white, -16px 24px white, -16px 32px black, -24px 16px white, -24px 24px white, -24px 32px black,
+    -32px 16px black, -32px 24px black, -16px 8px black, -24px 8px black, -32px 8px white, -40px 8px black,
+    24px 8px black, 32px 8px black, 40px 8px white, 48px 8px black, -16px 0px black, -24px 0px black, -32px 0px black, -40px 0px black,
+    24px 0px black, 32px 0px black, 40px 0px black, 48px 0px black, -16px -8px black, -24px -8px black, -32px -8px black, -40px -8px black,
+    24px -8px black, 32px -8px black, 40px -8px black, 48px -8px black, 0px -16px black, -8px -16px white, -16px -16px black, -24px -16px black,
+    -32px -16px black, -40px -16px black, 8px -16px black, 16px -16px black, 24px -16px black, 32px -16px black, 40px -16px black, 48px -16px black,
+    0px -24px white, -8px -24px white, -16px -24px white, -24px -24px black, -32px -24px black, 8px -24px black,16px -24px black, 24px -24px black,
+    32px -24px black, 40px -24px black, 0px -32px black, -8px -32px white, -16px -32px black, -24px -32px black, -32px -32px black, 8px -32px black, 16px -32px black, 24px -32px black,
+    32px -32px black, 40px -32px black, 0px -40px black, -8px -40px black, -16px -40px black, -24px -40px black, 8px -40px black, 16px -40px black, 24px -40px black, 32px -40px black,
+    0px -48px black, -8px -48px black, 8px -48px black, 16px -48px black;
+  }
+}
+
+html, body {
+  height: 100vh;
+  background: blue;
+}
+
+body {
+  display: flex;
+position: absolute;
+top:200px;
+left:100px;
+}
